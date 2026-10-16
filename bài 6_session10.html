@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bài 6_session10</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="phần-1.-phân-tích-sai-lầm-và-ưu-thế-của-markdown">Phần 1. Phân tích sai lầm và ưu thế của Markdown</h2>
+<h3 id="hai-sai-lầm-của-nam">1. Hai sai lầm của Nam</h3>
+<ul>
+<li><strong>Dùng docx cho Git:</strong> File Word là cấu trúc nhị phân (chứa XML bên trong). Khi sửa một chi tiết nhỏ, Git không đọc được dòng thay đổi mà coi là đổi toàn bộ file, dẫn đến xung đột (Conflict).
+<ul>
+<li><strong>Cản trở làm nhóm:</strong> GitHub không thể xem trực tiếp nội dung file Word, bắt buộc phải tải về máy mới đọc được.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ưu-thế-của-markdown-.md">2. Ưu thế của Markdown (.md)</h3>
+<ul>
+<li>
+<p><strong>Chống hỏng file:</strong> Nếu .docx mất 1 byte, toàn bộ file hỏng không mở được. Markdown là văn bản thô (Plain Text), mất byte nào chỉ ảnh hưởng đúng ký tự đó, phần còn lại vẫn đọc bình thường.</p>
+</li>
+<li>
+<p><strong>Hỗ trợ Git Diff tuyệt vời:</strong> So sánh từng dòng mã lệnh cực kỳ chính xác.</p>
+</li>
+</ul>
+<h2 id="phần-2.-hoàn-thiện">Phần 2. Hoàn Thiện</h2>
+<h3 id="dự-án--hệ-thống-nông-nghiệp-thông-minh-greentech">Dự án : Hệ thống Nông nghiệp Thông minh GreenTech</h3>
+<ul>
+<li><strong>Mục tiêu</strong> : ứng dụng AI tối ưu hóa tiết kiệm nước và tối ưu hóa tưới tiêu .</li>
+</ul>
+<h4 id="tính-năng-chính-">Tính năng chính :</h4>
+<ul>
+<li>Giám sát thời gian thực nhiệt độ, độ ẩm. - Tự động hóa máy bơm dựa trên cảm biến.</li>
+</ul>
+<h4 id="công-nghệ">Công nghệ</h4>
+
+<table>
+<thead>
+<tr>
+<th align="left">Thành phần</th>
+<th align="left">Công nghệ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Phần cứng</td>
+<td align="left">Cảm biến độ ẩm</td>
+</tr>
+<tr>
+<td align="left">Phần mềm</td>
+<td align="left">Python, Flask</td>
+</tr>
+<tr>
+<td align="left">Giao diện</td>
+<td align="left">Markdown Documentation, Web Dashboard</td>
+</tr>
+</tbody>
+</table></div>
+</body>
+
+</html>
